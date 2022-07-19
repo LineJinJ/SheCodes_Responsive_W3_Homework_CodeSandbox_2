@@ -92,31 +92,10 @@ p {
 
 .img-fluid {
   max-width: 100%;
+  height: auto;
 }
 
-.yoga-app {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.weather-app {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.yogurt-app {
+.primary-link {
   margin: 20px;
   border-radius: 4px;
   padding: 20px 15px;

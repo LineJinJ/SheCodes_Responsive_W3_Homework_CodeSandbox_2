@@ -21,6 +21,35 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Line Jin Jorgensen</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#contact">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <h2>👋 Hi I am</h2>
     <h1>Line Jin Jørgensen</h1>
     <h3>NO Front-end developer, based in Europe</h3>
@@ -30,46 +59,54 @@
     </div>
     <div class="container">
       <div class="row">
-        <div-col6>
-          <img src="images/yoga.png" alt="" class="img-fluid" border />
-        </div-col6>
-        <div class="col-6">
-          <h2>Yoga App</h2>
+        <div class="col-md-6">
+          <img src="images/yoga.png" class="img-fluid rounded" />
+        </div>
+        <div class="col-md-6">
+          <h2 class="mb-3">Yoga app</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
             quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
             eos eveniet alias temporibus deserunt veritatis minima fugiat
             explicabo eum dolore.
           </p>
-          <a href="#" class="yoga-app">Launch yoga app</a>
-        </div>
-        <div class="row">
-          <div class="col-6">
-            <h2>Weather App</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
-              omnis quam vel eos eveniet alias temporibus deserunt veritatis
-              minima fugiat explicabo eum dolore.
-            </p>
-            <a href="#" class="weather-app">weather yoga app</a>
-          </div>
-          <div class="col-6">
-            <img src="images/weather.png" alt="" class="img-fluid border" />
+          <div class="mt-5">
+            <a href="#" class="primary-link">Launch Yoga App</a>
           </div>
         </div>
-        <div-col6>
-          <img src="images/yogurt.png" alt="" class="img-fluid" border />
-        </div-col6>
-        <div class="col-6">
-          <h2>yogurt App</h2>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <h2 class="mb-3">Weather app</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
             quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
             eos eveniet alias temporibus deserunt veritatis minima fugiat
             explicabo eum dolore.
           </p>
-          <a href="#" class="yogurt-app">Launch yogurt app</a>
+          <div class="mb-5 mt-5">
+            <a href="#" class="primary-link">Launch Weather App</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="images/weather.png" class="img-fluid rounded" />
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <img src="images/yogurt.png" class="img-fluid rounded" />
+        </div>
+        <div class="col-md-6">
+          <h2 class="mb-3">Yogurt app</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+            eos eveniet alias temporibus deserunt veritatis minima fugiat
+            explicabo eum dolore.
+          </p>
+          <div class="mt-5">
+            <a href="#" class="primary-link">Launch Yogurt App</a>
+          </div>
         </div>
       </div>
     </div>
