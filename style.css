@@ -35,7 +35,7 @@ p {
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
 }
 
 .navigation-links {
@@ -88,4 +88,41 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.img-fluid {
+  max-width: 100%;
+}
+
+.yoga-app {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.weather-app {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.yogurt-app {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
 }
